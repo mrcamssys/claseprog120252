@@ -39,6 +39,8 @@ public class MIPRIMERPROYECTO {
         System.out.println("x1= "+par.x1() + " x2= " + par.x2());
         System.out.println("la pendiente es: " + valpen + " b= " + valdesfase);
         System.out.println(" la ecuacion de la recta es y = "+ valpen + "x + " + valdesfase);
+        System.out.println(par.x1Complejo());
+        System.out.println(par.x2Complejo());
     }
 
 }
