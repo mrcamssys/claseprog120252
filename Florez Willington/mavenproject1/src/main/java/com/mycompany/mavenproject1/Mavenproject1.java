@@ -26,7 +26,7 @@ public class Mavenproject1 {
         String data=par.miprimeraClase();
         System.out.println(data);
         
-        par.setParametros(1, 6, 8);
+        par.setParametros(1, 19, 18);
         
         float parametro1=par.get_a();
         float parametro2=par.get_b();
@@ -38,7 +38,8 @@ public class Mavenproject1 {
         System.out.println("El valor de X2 es: " + par.x2());
         System.out.println("la pendiente es: "+valpen+ " b= " +fase);
         System.out.println("y = " + valpen + " x + " + fase);
-        
+        System.out.println("el valo de X1 complejo es: " + par.x1Complejo());
+        System.out.println("el valor de X2 complejo es: " + par.x2Complejo());
     }
     public static float desfaseEcuRec(float m, int xc0, int yc0){
     float b;
