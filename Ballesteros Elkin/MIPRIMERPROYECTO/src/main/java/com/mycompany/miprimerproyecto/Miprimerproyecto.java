@@ -25,14 +25,16 @@ public class Miprimerproyecto {
         String data=par.miprimeraClase();
         System.out.println(data);
         
-        par.setParametros(1, 6, 8);
+        par.setParametros(1, 19, 8);
         float parametro1=par.get_a();
         
         System.out.println("x1= "+ par.x1() + " x2 = "+ par.x2());
         
-        System.out.println(par.miprimeraClase());
+        
         System.out.println("la pendiente es = " + valpen + " La recta es = " + fase);
         System.out.println("y = " + valpen + "x + " + fase);
+        System.out.println(par.x1Complejo());
+        System.out.println(par.x2Complejo());
     }
 
     public static float desfasecurec(int yi, float m, int xi) {
